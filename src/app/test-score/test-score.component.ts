@@ -30,7 +30,6 @@ export class TestScoreComponent implements OnInit {
 
   async ngOnInit() {
     this.tests = await this.loadTestsFromJson();
-    Console.log ('this.tests from ngOninit...', this.tests);
 
   }
 
